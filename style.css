@@ -1,0 +1,14 @@
+.right {
+  background-color: yellow;
+  width: -webkit-calc((100% - 10px)/2);
+  border-radius: 10px;
+}
+
+.left {
+  background-color: green;
+  color: white;
+  width: -webkit-calc((100% - 10px)/2);
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

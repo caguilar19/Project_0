@@ -1,0 +1,45 @@
+@media (min-width: 376px)
+{
+	.right
+	{
+		background-color: yellow;
+		width: -webkit-calc((100% - 10px)/2);
+		border-radius: 10px;
+	}
+
+	.separator
+	{
+			width: 10px;
+	}
+
+	.left
+	{
+		background-color: green;
+		color: white;
+		width: -webkit-calc((100% - 10px)/2);
+		border-radius: 10px;
+	}
+}
+
+@media (max-width: 375px)
+{
+	.right
+	{
+		background-color: yellow;
+		width: -webkit-calc((100% - 10px)/2);
+		border-radius: 10px;
+	}
+
+	.separator
+	{
+			width: 0px;
+	}
+
+	.left
+	{
+		background-color: green;
+		color: white;
+		width: -webkit-calc((100% - 10px)/2);
+		border-radius: 10px;
+	}
+}
