@@ -40,9 +40,6 @@ Sources:
 	* Grid System
 		https://getbootstrap.com/docs/4.1/layout/grid/
 
-	* Colors
-		https://upload.wikimedia.org/wikipedia/en/a/a7/UNAM_Pumas.png
-
 	* Inspiration
 		https://getbootstrap.com/docs/4.1/examples/product/
 		https://themes.getbootstrap.com/product/sell-bootstrap-4-e-commerce-template/

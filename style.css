@@ -18,13 +18,10 @@ body {
 #PageHeader .menu, #HomeHeader .menu {
   position: fixed;
   font-size: 2vw;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
-#HomeHeader {
-  color: white;
-}
 #HomeHeader .menulink {
   color: white;
   text-decoration: underline;
@@ -56,7 +53,7 @@ body {
 
   .left {
     background-color: green;
-    color: white;
+    color: #fffdf4;
     width: -webkit-calc((100% - 10px)/2);
   }
 }
@@ -81,7 +78,7 @@ body {
 
   .left {
     background-color: green;
-    color: white;
+    color: #fffdf4;
     width: 100%;
   }
 }
