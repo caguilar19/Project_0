@@ -48,7 +48,7 @@ body
 
 /* These media queries control the responsive aspect of the site, namely the 
  response to being on a smaller screen */
-@media (min-width: 1001px)
+@media (min-width: 376px)
 {
 	.row
 	{
@@ -78,7 +78,7 @@ body
 	}
 }
 
-@media (max-width: 1000px)
+@media (max-width: 375px)
 {
 	.row
 	{
