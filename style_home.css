@@ -1,0 +1,50 @@
+body
+{
+	background-color: #fffdf4;
+	font-family: monaco;
+}
+
+.container-fluid
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25vw;
+}
+
+.menu
+{
+	position: fixed;
+	top: -5px;
+	left: -10px;
+	font-size: 2vw;
+}
+
+a
+{
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: white;
+}
+
+.footer
+{
+	color: black;
+	text-align: left;
+	text-indent: 10px;
+	margin-bottom: 10px;
+}

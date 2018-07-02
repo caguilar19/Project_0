@@ -54,3 +54,19 @@ Sources:
 
 	* Rounded Edges
 		https://www.w3schools.com/css/css3_borders.asp
+
+	* iPhone X Viewport Size
+		https://forums.tumult.com/t/viewport-size-for-iphone-x/11132/5
+		https://forums.tumult.com/t/viewport-size-for-iphone-x/11132
+
+	* Moving Menu
+		https://stackoverflow.com/questions/21386306/css-always-on-top
+
+	* Aligning Text
+		https://www.w3schools.com/cssref/pr_text_text-align.asp
+
+	* Indenting Text
+		https://www.w3schools.com/cssref/pr_text_text-indent.asp
+
+	* Borders
+		https://getbootstrap.com/docs/4.1/utilities/borders/
