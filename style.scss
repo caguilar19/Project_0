@@ -21,6 +21,8 @@ body
 {
 	position: fixed;
 	font-size: 2vw;
+	top: 0px;
+	left: 0px;
 }
 
 #HomeHeader
@@ -40,8 +42,6 @@ body
 	.menu
 	{
 		@extend %menu;
-		top: -5px;
-		left: -10px;
 	}
 }
 
@@ -64,8 +64,6 @@ body
 		background-color: yellow;
 		width: 100vw;
 		height: 5vw;
-		top: 0px;
-		left: 0px;
 	}
 
 }
@@ -93,7 +91,8 @@ body
 	the title*/
 	#Title:hover:after 
 	{
-		/* This changes the text to the IPA pronunciation of "Taco" */
+		/* This changes the text to the IPA pronunciation of "Taco" when the user
+ 		 hovers over the title */
 		content:"'t\32A ako";
 	}
 }
