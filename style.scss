@@ -94,7 +94,7 @@ body
 	#Title:hover:after 
 	{
 		/* This changes the text to the IPA pronunciation of "Taco" */
-		content:"'t\32A ak0";
+		content:"'t\32A ako";
 	}
 }
 
@@ -105,12 +105,24 @@ body
 	{
 		font-size: 6vw
 	}
-	p {
+	.col-6
+	{
 		text-align: left;
-		text-indent: 12pt;
-		font-size: 4vw;
+		text-indent: 5vw;
+		font-size: 3vw;
 	}
 }
+
+.quote
+{
+	font-style: italic; 
+}
+
+.speaker
+{
+	margin-bottom: 2vw;
+}
+
 .footer
 {
 	font-size: 2vw;

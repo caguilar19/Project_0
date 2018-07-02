@@ -74,7 +74,7 @@ body {
 }
 .title #Title:hover:after {
   /* This changes the text to the IPA pronunciation of "Taco" */
-  content: "'t̪ak0";
+  content: "'t̪ako";
 }
 
 .pagebody {
@@ -83,10 +83,18 @@ body {
 .pagebody h2 {
   font-size: 6vw;
 }
-.pagebody p {
+.pagebody .col-6 {
   text-align: left;
-  text-indent: 12pt;
-  font-size: 4vw;
+  text-indent: 5vw;
+  font-size: 3vw;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.speaker {
+  margin-bottom: 2vw;
 }
 
 .footer {
