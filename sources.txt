@@ -97,3 +97,12 @@ Sources:
 
 	* Italic Text
 		https://www.w3schools.com/cssref/pr_font_font-style.asp
+
+	* Taco Research
+		https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/
+		http://www.slate.com/blogs/moneybox/2012/08/03/origins_of_the_taco.html
+		https://www.washingtonpost.com/humble-taco-is-subject-of-new-research/2012/08/03/3beaef00-db8f-11e1-8ad1-909913931f71_story.html?utm_term=.4718efe65b8d
+		https://www.bbc.com/news/magazine-33993719
+
+	* Em Dash in HTML
+		https://www.w3schools.com/charsets/ref_utf_punctuation.asp
