@@ -70,3 +70,26 @@ Sources:
 
 	* Borders
 		https://getbootstrap.com/docs/4.1/utilities/borders/
+
+	* Multiple ID Selector
+		https://stackoverflow.com/questions/9902305/how-to-access-two-ids-in-one-css-selector
+
+	* Span Tags
+		https://www.w3schools.com/tags/tag_span.asp
+
+	* Taco IPA Pronunciation
+		https://en.wiktionary.org/wiki/taco#Spanish
+		https://en.wiktionary.org/wiki/Wiktionary:International_Phonetic_Alphabet
+
+	* Unicode in HTML and CSS
+		https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
+		https://www.w3schools.com/charsets/ref_utf_misc_symbols.asp
+		https://www.compart.com/en/unicode/U+032A
+		https://stackoverflow.com/questions/190396/adding-html-entities-using-css-content
+
+	* Href Without Underline
+		https://www.computerhope.com/issues/ch000074.htm
+		https://www.w3schools.com/css/css_link.asp
+
+	* Hyperlinks
+		https://www.w3schools.com/tags/tag_a.asp

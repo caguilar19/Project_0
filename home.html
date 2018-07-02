@@ -5,31 +5,38 @@
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/style_home.css">
+		<link rel="stylesheet" href="style.css">
 
-		<link rel="stylesheet" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/style.css">
+		<link rel="stylesheet" href="responsive_style.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
-		<div class="container-fluid">
+		<div class="container-fluid" id="HomeHeader">
 			<img src="tacos.jpg" width=100%>
-			<h1 class="title">Tacos</h1>
+			<!-- In order to have the text change when hovering over it, I made 
+			the title a link and took advantage of the 'content' attribute 
+			in CSS. -->
+			<h1 class="title"><a href=# id="Title"></a></h1>
 			<div class="nav menu">
 				<div class="nav-item">
-					<a class="nav-link" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/home.html">Home</a>
+					<a class="nav-link menulink" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/home.html">Home</a>
 				</div>
 				<div class="nav-item">
-					<a class="nav-link" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/history.html">History</a>
+					<a class="nav-link menulink" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/history.html">History</a>
 				</div>
 				<div class="nav-item">
-					<a class="nav-link" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/definition.html">What is a Taco?</a>
+					<a class="nav-link menulink" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/definition.html">What is a Taco?</a>
 				</div>
 				<div class="nav-item">
-					<a class="nav-link" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/recommendations.html">Recommendations</a>
+					<a class="nav-link menulink" href="/Users/caguilar/Desktop/CSCI_S-33a/Projects/Project_0/recommendations.html">Recommendations</a>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid">
+
+		<div class="container-fluid" id="TextColumns">
+			<!-- This was put into a separate "container-fluid" class in order to keep the "Tacos" title in the middle of the image and not the page. -->
 			<div class="row">
 				<div class="right">
 					Why Tacos?
@@ -40,6 +47,11 @@
 				<div class="separator"></div>
 				<div class="left">TBD</div>
 			</div>
+
+			<div class="textchange">
+				<a href=#></a>
+			</div>
+
 			<div class="footer border-top border-bottom border-dark">
 				Claudio Aguilar
 			</div>

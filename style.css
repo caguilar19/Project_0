@@ -1,44 +1,99 @@
-@media (min-width: 376px) {
-  .row {
-    margin: 10px;
-    color: black;
-  }
-
-  .right {
-    background-color: yellow;
-    width: -webkit-calc((100% - 10px)/2);
-  }
-
-  .separator {
-    width: 10px;
-  }
-
-  .left {
-    background-color: green;
-    color: white;
-    width: -webkit-calc((100% - 10px)/2);
-  }
+@charset "UTF-8";
+body {
+  background-color: #fffdf4;
+  font-family: monaco;
+  text-align: center;
+  color: black;
 }
-@media (max-width: 375px) {
-  .row {
-    margin: 0px;
-    color: black;
-  }
 
-  .right {
-    background-color: yellow;
-    width: 100%;
-  }
+#PageHeader, #HomeHeader {
+  position: relative;
+}
 
-  .separator {
-    width: 0px;
-  }
+#PageHeader, #HomeHeader, #TextColumns {
+  padding-right: 0;
+  padding-left: 0;
+}
 
-  .left {
-    background-color: green;
-    color: white;
-    width: 100%;
-  }
+#PageHeader .menu, #HomeHeader .menu {
+  position: fixed;
+  font-size: 2vw;
+}
+
+#HomeHeader {
+  color: white;
+}
+#HomeHeader .menulink {
+  color: white;
+  text-decoration: underline;
+}
+#HomeHeader .menulink:hover {
+  color: white;
+  text-decoration: none;
+}
+#HomeHeader .menu {
+  top: -5px;
+  left: -10px;
+}
+
+#PageHeader .menuitem {
+  color: black;
+  text-decoration: underline;
+}
+#PageHeader .menuitem:hover {
+  color: black;
+  text-decoration: none;
+}
+#PageHeader .menu {
+  background-color: yellow;
+  width: 100vw;
+  height: 5vw;
+  top: 0px;
+  left: 0px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25vw;
+  text-decoration: none;
+  /* I was playing around trying to get the text to change and I guessed that 
+  the reason for the two colons was that the first corresponded to a 
+  pseudoclass and the second to the pseudoelement, so I figured I could use
+  'hover' and 'after' together to change the text when the user hovers over
+  the title*/
+}
+.title #Title {
+  text-decoration: none;
+}
+.title #Title::after {
+  color: white;
+  content: "Taco";
+}
+.title #Title:hover:after {
+  /* This changes the text to the IPA pronunciation of "Taco" */
+  content: "'t̪ak0";
+}
+
+.pagebody {
+  margin-top: -webkit-calc(5vw + 8px);
+}
+.pagebody h2 {
+  font-size: 6vw;
+}
+.pagebody p {
+  text-align: left;
+  text-indent: 12pt;
+  font-size: 4vw;
+}
+
+.footer {
+  font-size: 2vw;
+  text-align: left;
+  text-indent: 10px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

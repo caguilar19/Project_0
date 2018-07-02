@@ -1,52 +1,120 @@
-@media (min-width: 376px)
+body
 {
-	.row
-	{
-		margin: 10px;
-		color: black;
-	}
-	.right
-	{
-		background-color: yellow;
-		width: -webkit-calc((100% - 10px)/2);
-	}
+	background-color: #fffdf4;
+	font-family: monaco;
+	text-align: center;
+	color: black;
+}
 
-	.separator
-	{
-			width: 10px;
-	}
+%header
+{
+	position: relative;
+}
 
-	.left
+%header, #TextColumns
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+%menu
+{
+	position: fixed;
+	font-size: 2vw;
+}
+
+#HomeHeader
+{
+	@extend %header;
+	color: white;
+	.menulink 
 	{
-		background-color: green;
-		color: white;
-		width: -webkit-calc((100% - 10px)/2);
+	  color: white;
+	  text-decoration: underline;
+	}
+	.menulink:hover 
+	{
+	  color: white;
+	  text-decoration: none;
+	}
+	.menu
+	{
+		@extend %menu;
+		top: -5px;
+		left: -10px;
 	}
 }
 
-@media (max-width: 375px)
+#PageHeader
 {
-	.row
+	@extend %header;
+	.menuitem
 	{
-		margin: 0px;
-		color: black;
+	  color: black;
+	  text-decoration: underline;
 	}
-
-	.right
+	.menuitem:hover 
 	{
+	  color: black;
+	  text-decoration: none;
+	}
+	.menu
+	{
+		@extend %menu;
 		background-color: yellow;
-		width: 100%;
+		width: 100vw;
+		height: 5vw;
+		top: 0px;
+		left: 0px;
 	}
 
-	.separator
-	{
-			width: 0px;
-	}
+}
 
-	.left
+.title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25vw;
+	text-decoration: none;
+	#Title{
+		text-decoration: none;
+	}
+	#Title::after 
 	{
-		background-color: green;
 		color: white;
-		width: 100%;
+		content:"Taco";
 	}
+	/* I was playing around trying to get the text to change and I guessed that 
+	the reason for the two colons was that the first corresponded to a 
+	pseudoclass and the second to the pseudoelement, so I figured I could use
+	'hover' and 'after' together to change the text when the user hovers over
+	the title*/
+	#Title:hover:after 
+	{
+		/* This changes the text to the IPA pronunciation of "Taco" */
+		content:"'t\32A ak0";
+	}
+}
+
+.pagebody
+{
+	margin-top: -webkit-calc(5vw + 8px);
+	h2
+	{
+		font-size: 6vw
+	}
+	p {
+		text-align: left;
+		text-indent: 12pt;
+		font-size: 4vw;
+	}
+}
+.footer
+{
+	font-size: 2vw;
+	text-align: left;
+	text-indent: 10px;
+	margin-bottom: 10px;
 }
