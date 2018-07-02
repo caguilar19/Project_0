@@ -32,7 +32,7 @@ body {
 }
 /* These media queries control the responsive aspect of the site, namely the 
  response to being on a smaller screen */
-@media (min-width: 376px) {
+@media (min-width: 1001px) {
   .row {
     margin: 10px;
     color: black;
@@ -57,14 +57,14 @@ body {
     width: -webkit-calc((100% - 10px)/2);
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
   .row {
     margin: 0px;
     color: black;
   }
 
   .right {
-    padding: 5px;
+    padding: 10px;
     background-color: yellow;
     /* When the viewport is at most as wide as an iPhone X, the two columns 
     become rows stacked on top of each other with no margins */
@@ -78,7 +78,7 @@ body {
   }
 
   .left {
-    padding: 5px;
+    padding-right: 10px;
     background-color: green;
     color: #fffdf4;
     width: 100%;
