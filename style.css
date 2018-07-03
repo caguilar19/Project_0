@@ -147,6 +147,10 @@ body {
   width: 85%;
 }
 
+.table {
+  width: 100%;
+}
+
 .quote {
   font-style: italic;
 }
