@@ -128,5 +128,8 @@ Sources:
 		https://www.ellagodeloscisnes.com.mx
 		http://elcalifa.com.mx/website/
 
-	$ Currencies Formatting
+	* Currencies Formatting
 		https://en.wikipedia.org/wiki/Mexican_peso
+
+	* Table Width
+		https://stackoverflow.com/questions/4237110/how-can-i-make-a-css-table-fit-the-screen-width
