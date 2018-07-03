@@ -133,3 +133,6 @@ Sources:
 
 	* Table Width
 		https://stackoverflow.com/questions/4237110/how-can-i-make-a-css-table-fit-the-screen-width
+
+	* Indent Width
+		http://jkorpela.fi/chars/spaces.html

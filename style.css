@@ -139,7 +139,8 @@ body {
 }
 .pagebody .col-lg-6, .pagebody .col-sm-12 {
   text-align: left;
-  text-indent: 5vw;
+  font-size: 12pt;
+  text-indent: 1.5em;
 }
 .pagebody .col-lg-6 ul, .pagebody .col-sm-12 ul {
   text-indent: 0;
