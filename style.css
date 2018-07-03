@@ -113,7 +113,7 @@ body {
   the reason for the two colons was that the first corresponded to a 
   pseudoclass and the second to the pseudoelement, so I figured I could use
   'hover' and 'after' together to change the text when the user hovers over
-  the title*/
+  the title */
 }
 .title #Title {
   text-decoration: none;
@@ -145,6 +145,9 @@ body {
   text-indent: 0;
   font-size: 85%;
   width: 85%;
+}
+.pagebody .tabletitle {
+  text-indent: left;
 }
 
 .quote {

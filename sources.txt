@@ -45,6 +45,7 @@ Sources:
 		https://themes.getbootstrap.com/product/sell-bootstrap-4-e-commerce-template/
 		https://themes.getbootstrap.com/product/touche-cafe-restaurant-theme/
 		https://www.atlanyc.com
+		https://fivethirtyeight.com
 
 	* Column Separation
 		https://sass-lang.com/guide
@@ -84,6 +85,9 @@ Sources:
 		https://www.w3schools.com/charsets/ref_utf_misc_symbols.asp
 		https://www.compart.com/en/unicode/U+032A
 		https://stackoverflow.com/questions/190396/adding-html-entities-using-css-content
+		https://www.fileformat.info/info/unicode/char/00f3/index.htm
+		http://www.fileformat.info/info/unicode/char/e1/index.htm
+		https://www.w3schools.com/charsets/ref_utf_punctuation.asp
 
 	* Href Without Underline
 		https://www.computerhope.com/issues/ch000074.htm
@@ -104,8 +108,24 @@ Sources:
 		https://www.washingtonpost.com/humble-taco-is-subject-of-new-research/2012/08/03/3beaef00-db8f-11e1-8ad1-909913931f71_story.html?utm_term=.4718efe65b8d
 		https://www.bbc.com/news/magazine-33993719
 
-	* Em Dash in HTML
-		https://www.w3schools.com/charsets/ref_utf_punctuation.asp
-
 	* Layers
 		https://www.w3schools.com/cssref/pr_pos_z-index.asp
+
+	* Bold Text
+		https://getbootstrap.com/docs/4.1/utilities/text/#font-weight-and-italics
+
+	* Tables
+		https://getbootstrap.com/docs/4.1/content/tables/
+
+	* Restaurant Research
+		https://esquinanyc.com
+		http://tortaria-nyc.com/#home-slider
+		https://henrinyc.com/casa-enrique/
+		https://www.atlanyc.com
+		http://nymag.com/restaurants/
+		http://taqueriaselfarolito.com.mx/index.html
+		https://www.ellagodeloscisnes.com.mx
+		http://elcalifa.com.mx/website/
+
+	$ Currencies Formatting
+		https://en.wikipedia.org/wiki/Mexican_peso

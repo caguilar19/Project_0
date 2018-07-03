@@ -158,7 +158,7 @@ body
 	the reason for the two colons was that the first corresponded to a 
 	pseudoclass and the second to the pseudoelement, so I figured I could use
 	'hover' and 'after' together to change the text when the user hovers over
-	the title*/
+	the title */
 	#Title:hover:after 
 	{
 		/* This changes the text to the IPA pronunciation of "Taco" when the user
@@ -187,6 +187,10 @@ body
 			font-size: 85%;
 			width: 85%;
 		}
+	}
+	.tabletitle
+	{
+		text-indent: left;
 	}
 }
 
