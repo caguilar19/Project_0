@@ -146,8 +146,8 @@ body {
   font-size: 85%;
   width: 85%;
 }
-.pagebody table {
-  width: 100vw;
+.pagebody #tables {
+  width: 100%;
 }
 
 .quote {
