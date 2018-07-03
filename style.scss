@@ -188,9 +188,16 @@ body
 			width: 85%;
 		}
 	}
-	table
+}
+
+#RecommendationTables
+{
+	padding-right: 0;
+	padding-left: 0;
+	.col-12
 	{
-		width: 90vw;
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 

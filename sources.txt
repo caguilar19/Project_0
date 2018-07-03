@@ -116,6 +116,7 @@ Sources:
 
 	* Tables
 		https://getbootstrap.com/docs/4.1/content/tables/
+		https://www.w3schools.com/css/css_table.asp
 
 	* Restaurant Research
 		https://esquinanyc.com

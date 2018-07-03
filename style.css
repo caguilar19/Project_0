@@ -146,8 +146,14 @@ body {
   font-size: 85%;
   width: 85%;
 }
-.pagebody table {
-  width: 90vw;
+
+#RecommendationTables {
+  padding-right: 0;
+  padding-left: 0;
+}
+#RecommendationTables .col-12 {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .quote {
