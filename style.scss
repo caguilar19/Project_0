@@ -25,6 +25,8 @@ body
 	font-size: 2vw;
 	top: 0;
 	left: 0;
+	/* The z-index makes it so the menu is the top-most layer on the screen. */
+	z-index: 1;
 }
 
 #HomeHeader
@@ -168,15 +170,23 @@ body
 .pagebody
 {
 	margin-top: -webkit-calc(5vw + 8px);
+	position: relative;
+	/* The z-index makes it so that the body is below the menu. */
+	z-index: 0;
 	h2
 	{
 		font-size: 6vw;
 	}
-	.col-6
+	.col-lg-6, .col-sm-12
 	{
 		text-align: left;
 		text-indent: 5vw;
-		font-size: 3vw;
+		ul
+		{
+			text-indent: 0;
+			font-size: 85%;
+			width: 85%;
+		}
 	}
 }
 
