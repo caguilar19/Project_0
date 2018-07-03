@@ -146,8 +146,8 @@ body {
   font-size: 85%;
   width: 85%;
 }
-.pagebody .tabletitle {
-  text-indent: left;
+.pagebody table {
+  width: 100%;
 }
 
 .quote {
