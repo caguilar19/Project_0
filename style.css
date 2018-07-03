@@ -155,7 +155,7 @@ body {
 #PageBody .col-lg-6, #PageBody .col-sm-12 {
   text-align: left;
   font-size: 12pt;
-  text-indent: 1.5em;
+  text-indent: 1em;
 }
 #PageBody .col-lg-6 ul, #PageBody .col-sm-12 ul {
   text-indent: 0;
