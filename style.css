@@ -147,15 +147,6 @@ body {
   width: 85%;
 }
 
-#RecommendationTables {
-  padding-right: 0;
-  padding-left: 0;
-}
-#RecommendationTables .col-12 {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 .quote {
   font-style: italic;
 }
